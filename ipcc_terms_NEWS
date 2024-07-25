@@ -25,3 +25,6 @@
 
 ## v0.6 (28 Jul 2021)
  * Rename some datasets to fix GCM naming (for consistency with IA)
+
+## v0.7 (25 Jul 2024)
+ * Add additional SSP named individuals

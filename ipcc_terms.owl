@@ -15,18 +15,18 @@
      xmlns:geosparql="http://www.opengis.net/ont/geosparql#"
      xmlns:cpannotationschema="http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#">
     <owl:Ontology rdf:about="http://www.metaclip.org/ipcc_terms/ipcc_terms.owl">
-        <owl:versionIRI rdf:resource="http://www.metaclip.org/ipcc_terms/0.6/ipcc_terms.owl"/>
+        <owl:versionIRI rdf:resource="http://www.metaclip.org/ipcc_terms/0.7/ipcc_terms.owl"/>
         <owl:imports rdf:resource="http://www.metaclip.org/datasource/0.22/datasource.owl"/>
         <owl:imports rdf:resource="http://www.opengis.net/ont/geosparql"/>
         <owl:imports rdf:resource="http://www.w3.org/2000/01/rdf-schema#"/>
         <owl:imports rdf:resource="http://www.w3.org/ns/prov-o-20130430"/>
         <dc:creator xml:lang="en">Santander Meteorology Group</dc:creator>
-        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-07-27</dc:date>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-07-24T07:31:34Z</dc:date>
         <dc:description xml:lang="en">ipcc_terms provides a definition of individual entities used by the Working Group 1 of the IPCC-AR6, extending some the classes of the METACLIP framework.</dc:description>
         <dc:title xml:lang="en">IPCC individual entities of METACLIP generic classes</dc:title>
         <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.metaclip.org</rdfs:seeAlso>
         <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://doi.org/10.1016/j.envsoft.2019.07.005</rdfs:seeAlso>
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.6</owl:versionInfo>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.7</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -81,6 +81,12 @@
     <!-- http://purl.org/dc/terms/creator -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/description"/>
     
 
 
@@ -260,6 +266,12 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://www.metaclip.org/datasource/datasource.owl#CORDEXdomain -->
+
+    <owl:Class rdf:about="http://www.metaclip.org/datasource/datasource.owl#CORDEXdomain"/>
     
 
 
@@ -4888,6 +4900,18 @@ aerosol: OsloAero, atmos: CAM-OSLO (1 degree resolution; 288 x 192; 32 levels; t
     
 
 
+    <!-- http://www.metaclip.org/ipcc_terms/ipcc_terms.owl#SSP119 -->
+
+    <owl:NamedIndividual rdf:about="http://www.metaclip.org/ipcc_terms/ipcc_terms.owl#SSP119">
+        <rdf:type rdf:resource="http://www.metaclip.org/datasource/datasource.owl#Experiment"/>
+        <terms:description xml:lang="en">SSP119 is the Shared Socioeconomic Pathway which represents the lowest scenario of radiative forcing and development scenarios, consistent with RCP1.9.</terms:description>
+        <ds:referenceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://doi.org/10.1016/j.gloenvcha.2016.05.009</ds:referenceURL>
+        <rdfs:comment xml:lang="en">The Shared Socioeconomic Pathways (SSPs) are part of a new scenario framework, established by the climate change research community in order to facilitate the integrated analysis of future climate impacts, vulnerabilities, adaptation, and mitigation. The pathways were developed over the last years as a joint community effort and describe plausible major global developments that together would lead in the future to different challenges for mitigation and adaptation to climate change. The SSPs are based on five narratives describing alternative socio-economic developments, including sustainable development, regional rivalry, inequality, fossil-fueled development, and middle-of-the-road development.</rdfs:comment>
+        <rdfs:label>SSP119</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.metaclip.org/ipcc_terms/ipcc_terms.owl#SSP126 -->
 
     <owl:NamedIndividual rdf:about="http://www.metaclip.org/ipcc_terms/ipcc_terms.owl#SSP126">
@@ -4927,6 +4951,18 @@ aerosol: OsloAero, atmos: CAM-OSLO (1 degree resolution; 288 x 192; 32 levels; t
     
 
 
+    <!-- http://www.metaclip.org/ipcc_terms/ipcc_terms.owl#SSP434 -->
+
+    <owl:NamedIndividual rdf:about="http://www.metaclip.org/ipcc_terms/ipcc_terms.owl#SSP434">
+        <rdf:type rdf:resource="http://www.metaclip.org/datasource/datasource.owl#Experiment"/>
+        <terms:description xml:lang="en">The SSP434 is a gap-filling mitigation scenario with low radiative forcing by the end of the century. Following approximately RCP3.4 global forcing pathway with SSP4 socioeconomic conditions. Radiative forcing reaches a level of 3.4 W/m2 in 2100. Concentration-driven. The SSP434 fills a gap at the low end of the range of plausible future forcing pathways. Of interest to mitigation policy, since mitigation costs differ substantially between forcing levels of 4.5 W/m2 and 2.6 W/m2.</terms:description>
+        <ds:referenceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://view.es-doc.org/index.html?renderMethod=id&amp;project=cmip6&amp;id=15dc5a43-6c88-43f2-b379-b94a25ea361b&amp;version=1</ds:referenceURL>
+        <rdfs:comment xml:lang="en">The Shared Socioeconomic Pathways (SSPs) are part of a new scenario framework, established by the climate change research community in order to facilitate the integrated analysis of future climate impacts, vulnerabilities, adaptation, and mitigation. The pathways were developed over the last years as a joint community effort and describe plausible major global developments that together would lead in the future to different challenges for mitigation and adaptation to climate change. The SSPs are based on five narratives describing alternative socio-economic developments, including sustainable development, regional rivalry, inequality, fossil-fueled development, and middle-of-the-road development.</rdfs:comment>
+        <rdfs:label>SSP434</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.metaclip.org/ipcc_terms/ipcc_terms.owl#SSP460 -->
 
     <owl:NamedIndividual rdf:about="http://www.metaclip.org/ipcc_terms/ipcc_terms.owl#SSP460">
@@ -4936,6 +4972,18 @@ aerosol: OsloAero, atmos: CAM-OSLO (1 degree resolution; 288 x 192; 32 levels; t
         <rdfs:comment xml:lang="en">The Shared Socioeconomic Pathways (SSPs) are part of a new scenario framework, established by the climate change research community in order to facilitate the integrated analysis of future climate impacts, vulnerabilities, adaptation, and mitigation. The pathways were developed over the last years as a joint community effort and describe plausible major global developments that together would lead in the future to different challenges for mitigation and adaptation to climate change. The SSPs are based on five narratives describing alternative socio-economic developments, including sustainable development, regional rivalry, inequality, fossil-fueled development, and middle-of-the-road development.</rdfs:comment>
         <rdfs:label>SSP460</rdfs:label>
         <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://doi.org/10.5194/gmd-9-3461-2016</rdfs:seeAlso>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.metaclip.org/ipcc_terms/ipcc_terms.owl#SSP534-os -->
+
+    <owl:NamedIndividual rdf:about="http://www.metaclip.org/ipcc_terms/ipcc_terms.owl#SSP534-os">
+        <rdf:type rdf:resource="http://www.metaclip.org/datasource/datasource.owl#Experiment"/>
+        <terms:description xml:lang="en">The scenario SSP534-os (&apos;overshoot&apos;) initially follows the high-emission SSP5-8.5 scenario until 2030 before exhibiting the steepest annual reduction rates of all SSP scenarios and the most net negative emissions by 2100. Its aim is to explore the climate science and policy implications of a peak and decline in forcing during the 21st century. This scenario fills a gap in existing climate simulations by investigating the implications of a substantial 21st century overshoot in radiative forcing relative to a longer-term target.</terms:description>
+        <ds:referenceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://view.es-doc.org/index.html?renderMethod=id&amp;project=cmip6&amp;id=63021e70-a9df-4c29-b8af-0a40168a771e&amp;version=1</ds:referenceURL>
+        <rdfs:comment xml:lang="en">The Shared Socioeconomic Pathways (SSPs) are part of a new scenario framework, established by the climate change research community in order to facilitate the integrated analysis of future climate impacts, vulnerabilities, adaptation, and mitigation. The pathways were developed over the last years as a joint community effort and describe plausible major global developments that together would lead in the future to different challenges for mitigation and adaptation to climate change. The SSPs are based on five narratives describing alternative socio-economic developments, including sustainable development, regional rivalry, inequality, fossil-fueled development, and middle-of-the-road development.</rdfs:comment>
+        <rdfs:label>SSP534-os</rdfs:label>
     </owl:NamedIndividual>
     
 
