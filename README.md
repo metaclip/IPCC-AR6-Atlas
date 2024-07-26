@@ -5,5 +5,5 @@ This vocabulary is used to produce the semmantic provenance information for the 
 
 <img width="1145" alt="Captura de pantalla 2024-07-26 a las 11 25 52" src="https://github.com/user-attachments/assets/81e68d35-8b5c-49cc-84e1-933ffab671dd">
 
-This information is accesible in the Interactice Atlas in the following link (click on the "metadata" button on the right to display the metadata information).
+This information is accesible in the Interactice Atlas in the following [link](https://interactive-atlas.ipcc.ch/permalink/2ftNwPFM) (click on the "metadata" button on the right to display the metadata information).
 
