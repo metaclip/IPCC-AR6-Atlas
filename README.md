@@ -7,3 +7,5 @@ This vocabulary is used to produce the provenance information for the different 
 
 This information is accesible in the [Interactive Atlas](https://interactive-atlas.ipcc.ch/permalink/2ftNwPFM) clicking on the "metadata" button on the right toolbar to display the metadata information. Full deatils on the different provenance elements can be displayed clicking on the nodes of the graph, from the data sources in the top to the graphical products in the bottom. 
 
+You can also have a look to our [2024 AGU Interactive Poster](https://agu24.ipostersessions.com/Default.aspx?s=50-0B-A2-D6-50-24-05-87-67-9B-4A-09-A3-FE-B3-3D)
+
