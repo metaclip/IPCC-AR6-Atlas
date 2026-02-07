@@ -21,12 +21,15 @@
         <owl:imports rdf:resource="http://www.w3.org/2000/01/rdf-schema#"/>
         <owl:imports rdf:resource="http://www.w3.org/ns/prov-o-20130430"/>
         <dc:creator xml:lang="en">Santander Meteorology Group</dc:creator>
-        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-07-24T07:31:34Z</dc:date>
+        <terms:contributor>Daniel San-Martin &lt;https://orcid.org/0000-0002-2862-2704&gt;</terms:contributor>
+        <terms:contributor>Joaquin Bedia &lt;https://orcid.org/0000-0001-6219-4312&gt;</terms:contributor>
+        <terms:contributor>Jose Manuel Gutierrez &lt;https://orcid.org/0000-0002-2766-6297&gt;</terms:contributor>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-02-07T17:07:34Z</dc:date>
         <dc:description xml:lang="en">ipcc_terms provides a definition of individual entities used by the Working Group 1 of the IPCC-AR6, extending some the classes of the METACLIP framework.</dc:description>
         <dc:title xml:lang="en">IPCC individual entities of METACLIP generic classes</dc:title>
         <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.metaclip.org</rdfs:seeAlso>
         <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://doi.org/10.1016/j.envsoft.2019.07.005</rdfs:seeAlso>
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.7</owl:versionInfo>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.8</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -3799,50 +3802,6 @@ The model was run by the National Oceanic and Atmospheric Administration, Geophy
     
 
 
-    <!-- http://www.metaclip.org/ipcc_terms/ipcc_terms.owl#HADGEM2-AO -->
-
-    <owl:NamedIndividual rdf:about="http://www.metaclip.org/ipcc_terms/ipcc_terms.owl#HADGEM2-AO">
-        <rdf:type rdf:resource="http://www.metaclip.org/datasource/datasource.owl#GCM"/>
-        <ds:referenceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://doi.org/10.1175/JCLI3712.1</ds:referenceURL>
-        <rdfs:label>HADGEM2-AO</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.metaclip.org/ipcc_terms/ipcc_terms.owl#HADGEM2-CC -->
-
-    <owl:NamedIndividual rdf:about="http://www.metaclip.org/ipcc_terms/ipcc_terms.owl#HADGEM2-CC">
-        <rdf:type rdf:resource="http://www.metaclip.org/datasource/datasource.owl#GCM"/>
-        <ds:referenceURL xml:lang="en">https://doi.org/10.5194/gmd-4-723-2011</ds:referenceURL>
-        <rdfs:label>HADGEM2-CC</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.metaclip.org/ipcc_terms/ipcc_terms.owl#HADGEM2-ES -->
-
-    <owl:NamedIndividual rdf:about="http://www.metaclip.org/ipcc_terms/ipcc_terms.owl#HADGEM2-ES">
-        <rdf:type rdf:resource="http://www.metaclip.org/datasource/datasource.owl#GCM"/>
-        <ds:referenceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.geosci-model-dev.net/4/723/2011/</ds:referenceURL>
-        <rdfs:label>HADGEM2-ES</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.metaclip.org/ipcc_terms/ipcc_terms.owl#HADGEM3-GC31-LL -->
-
-    <owl:NamedIndividual rdf:about="http://www.metaclip.org/ipcc_terms/ipcc_terms.owl#HADGEM3-GC31-LL">
-        <rdf:type rdf:resource="http://www.metaclip.org/datasource/datasource.owl#GCM"/>
-        <dc:description xml:lang="en">The model used in climate research named HadGEM3-GC3.1-LL, released in 2016, includes the components:
-aerosol: UKCA-GLOMAP-mode, atmos: MetUM-HadGEM3-GA7.1 (N96; 192 x 144 longitude/latitude; 85 levels; top level 85 km), land: JULES-HadGEM3-GL7.1, ocean: NEMO-HadGEM3-GO6.0 (eORCA1 tripolar primarily 1 deg with meridional refinement down to 1/3 degree in the tropics; 360 x 330 longitude/latitude; 75 levels; top grid cell 0-1 m), seaIce: CICE-HadGEM3-GSI8 (eORCA1 tripolar primarily 1 deg; 360 x 330 longitude/latitude).
-The model was run by the Met Office Hadley Centre, Fitzroy Road, Exeter, Devon, EX1 3PB, UK (MOHC) in native nominal resolutions: aerosol: 250 km, atmos: 250 km, land: 250 km, ocean: 100 km, seaIce: 100 km.</dc:description>
-        <ds:referenceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://doi.org/10.1002/2017MS001115</ds:referenceURL>
-        <rdfs:label>HADGEM3-GC31-LL</rdfs:label>
-        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://doi.org/10.1029/2019MS001995</rdfs:seeAlso>
-    </owl:NamedIndividual>
-    
-
-
     <!-- http://www.metaclip.org/ipcc_terms/ipcc_terms.owl#HAMMOZ-Consortium -->
 
     <owl:NamedIndividual rdf:about="http://www.metaclip.org/ipcc_terms/ipcc_terms.owl#HAMMOZ-Consortium">
@@ -3873,6 +3832,50 @@ The model was run by the Met Office Hadley Centre, Fitzroy Road, Exeter, Devon, 
         <dc:title xml:lang="de">Helmhotz-Zentrum Geesthacht</dc:title>
         <ds:referenceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.hzg.de/index.php.en</ds:referenceURL>
         <rdfs:label>HZG</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.metaclip.org/ipcc_terms/ipcc_terms.owl#HadGEM2-AO -->
+
+    <owl:NamedIndividual rdf:about="http://www.metaclip.org/ipcc_terms/ipcc_terms.owl#HadGEM2-AO">
+        <rdf:type rdf:resource="http://www.metaclip.org/datasource/datasource.owl#GCM"/>
+        <ds:referenceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://doi.org/10.1175/JCLI3712.1</ds:referenceURL>
+        <rdfs:label>HADGEM2-AO</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.metaclip.org/ipcc_terms/ipcc_terms.owl#HadGEM2-CC -->
+
+    <owl:NamedIndividual rdf:about="http://www.metaclip.org/ipcc_terms/ipcc_terms.owl#HadGEM2-CC">
+        <rdf:type rdf:resource="http://www.metaclip.org/datasource/datasource.owl#GCM"/>
+        <ds:referenceURL xml:lang="en">https://doi.org/10.5194/gmd-4-723-2011</ds:referenceURL>
+        <rdfs:label>HADGEM2-CC</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.metaclip.org/ipcc_terms/ipcc_terms.owl#HadGEM2-ES -->
+
+    <owl:NamedIndividual rdf:about="http://www.metaclip.org/ipcc_terms/ipcc_terms.owl#HadGEM2-ES">
+        <rdf:type rdf:resource="http://www.metaclip.org/datasource/datasource.owl#GCM"/>
+        <ds:referenceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.geosci-model-dev.net/4/723/2011/</ds:referenceURL>
+        <rdfs:label>HADGEM2-ES</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.metaclip.org/ipcc_terms/ipcc_terms.owl#HadGEM3-GC31-LL -->
+
+    <owl:NamedIndividual rdf:about="http://www.metaclip.org/ipcc_terms/ipcc_terms.owl#HadGEM3-GC31-LL">
+        <rdf:type rdf:resource="http://www.metaclip.org/datasource/datasource.owl#GCM"/>
+        <dc:description xml:lang="en">The model used in climate research named HadGEM3-GC3.1-LL, released in 2016, includes the components:
+aerosol: UKCA-GLOMAP-mode, atmos: MetUM-HadGEM3-GA7.1 (N96; 192 x 144 longitude/latitude; 85 levels; top level 85 km), land: JULES-HadGEM3-GL7.1, ocean: NEMO-HadGEM3-GO6.0 (eORCA1 tripolar primarily 1 deg with meridional refinement down to 1/3 degree in the tropics; 360 x 330 longitude/latitude; 75 levels; top grid cell 0-1 m), seaIce: CICE-HadGEM3-GSI8 (eORCA1 tripolar primarily 1 deg; 360 x 330 longitude/latitude).
+The model was run by the Met Office Hadley Centre, Fitzroy Road, Exeter, Devon, EX1 3PB, UK (MOHC) in native nominal resolutions: aerosol: 250 km, atmos: 250 km, land: 250 km, ocean: 100 km, seaIce: 100 km.</dc:description>
+        <ds:referenceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://doi.org/10.1002/2017MS001115</ds:referenceURL>
+        <rdfs:label>HADGEM3-GC31-LL</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://doi.org/10.1029/2019MS001995</rdfs:seeAlso>
     </owl:NamedIndividual>
     
 
@@ -4573,16 +4576,6 @@ The model was run by the Nanjing University of Information Science and Technolog
     
 
 
-    <!-- http://www.metaclip.org/ipcc_terms/ipcc_terms.owl#NORESM1-M -->
-
-    <owl:NamedIndividual rdf:about="http://www.metaclip.org/ipcc_terms/ipcc_terms.owl#NORESM1-M">
-        <rdf:type rdf:resource="http://www.metaclip.org/datasource/datasource.owl#GCM"/>
-        <ds:referenceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://doi.org/10.5194/gmd-6-687-2013</ds:referenceURL>
-        <rdfs:label>NORESM1-M</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
     <!-- http://www.metaclip.org/ipcc_terms/ipcc_terms.owl#NORESM1-ME -->
 
     <owl:NamedIndividual rdf:about="http://www.metaclip.org/ipcc_terms/ipcc_terms.owl#NORESM1-ME">
@@ -4601,6 +4594,16 @@ The model was run by the Nanjing University of Information Science and Technolog
         <dc:title xml:lang="en">Nanjing University of Information Science and Technology</dc:title>
         <ds:referenceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.nuist.edu.cn/</ds:referenceURL>
         <rdfs:label>NUIST</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.metaclip.org/ipcc_terms/ipcc_terms.owl#NorESM1-M -->
+
+    <owl:NamedIndividual rdf:about="http://www.metaclip.org/ipcc_terms/ipcc_terms.owl#NorESM1-M">
+        <rdf:type rdf:resource="http://www.metaclip.org/datasource/datasource.owl#GCM"/>
+        <ds:referenceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://doi.org/10.5194/gmd-6-687-2013</ds:referenceURL>
+        <rdfs:label>NORESM1-M</rdfs:label>
     </owl:NamedIndividual>
     
 
