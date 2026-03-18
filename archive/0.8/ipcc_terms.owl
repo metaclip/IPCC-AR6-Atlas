@@ -13,13 +13,14 @@
      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:geosparql="http://www.opengis.net/ont/geosparql#"
+     xmlns:datasource="https://metaclip.org/datasource/datasource.owl#"
      xmlns:cpannotationschema="http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#">
     <owl:Ontology rdf:about="https://raw.githubusercontent.com/metaclip/IPCC-AR6-Atlas/refs/heads/main/ipcc_terms.owl">
-        <owl:versionIRI rdf:resource="https://raw.githubusercontent.com/metaclip/IPCC-AR6-Atlas/refs/heads/main/archive/0.8/ipcc_terms.owl"/>
-        <owl:imports rdf:resource="http://www.metaclip.org/datasource/0.22/datasource.owl"/>
+        <owl:versionIRI rdf:resource="https://metaclip.org/vocab/IPCC-AR6-Atlas/0.8/ipcc_terms.owl"/>
         <owl:imports rdf:resource="http://www.opengis.net/ont/geosparql"/>
         <owl:imports rdf:resource="http://www.w3.org/2000/01/rdf-schema#"/>
         <owl:imports rdf:resource="http://www.w3.org/ns/prov-o-20130430"/>
+        <owl:imports rdf:resource="https://metaclip.org/vocab/metaclip/datasource/1.0.0/datasource.owl"/>
         <dc:creator>METACLIP.org &lt;https://github.com/metaclip&gt;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-03-11T09:47:34Z</dc:date>
         <dc:description xml:lang="en">ipcc_terms provides a definition of individual entities used by the Working Group 1 of the IPCC-AR6, extending some the classes of the METACLIP framework.</dc:description>
