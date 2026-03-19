@@ -29,5 +29,7 @@
 ## v0.7 (25 Jul 2024)
  * Add additional SSP named individuals
 
-## v0.8 (7 Feb 2026)
+## v0.8 (19 Mar 2026)
  * Minor uppercase/lowercase modifications to CORDEX RCM names for C3S-Atlas compatibility
+ * Update ontology version IRI
+ * Other minor annotation updates
